@@ -8,7 +8,7 @@ const socketServer = require("./socketServer");
 const authRoutes = require("./routes/authRoutes");
 const friendInvitationRoutes = require("./routes/friendInvitationRoutes");
 
-const PORT = process.env.PORT || process.env.API_PORT;
+const PORT = 5000;
 
 const app = express();
 app.use(express.json());
